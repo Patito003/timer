@@ -76,3 +76,16 @@ main {
   cursor: not-allowed;
   background-color: rgb(230, 230, 230);
 }
+
+@media only screen and (max-width: 600px) {
+  .timer {
+    width: 20%;
+    height: 25%;
+    font-size:49px;
+    display: flex;
+  }
+
+  .botao {
+    font-size: 31px;
+  }
+}
